@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: linear-gradient(90deg, rgb(189, 189, 209) 0%, rgb(207, 207, 218) 35%, rgb(244, 252, 253) 100%);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: ,'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="text"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgb(2, 2, 27); 
+} 
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgb(2, 2, 27); 
+} 
+input[type="number"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgb(2, 2, 27); 
+} 
+
+.card-header h3{
+font-family: 'Aclonica';
+color: rgb(19, 17, 17);
+}
+h3{
+    text-align: center;
+}
+h3:hover{
+    color: rgb(10, 53, 247);
+}
+.input-group-prepend span{
+width: 35px;
+background: rgb(26, 31, 43); 
+color: black;
+border:0 !important;
+}
+.form-control{
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+
+.login_btn{
+color: black;
+background:linear-gradient(90deg, rgba(223,223,237,1) 0%, rgba(183,183,221,1) 35%, rgba(156,169,172,1) 100%);
+border-radius: 5px;
+border-width: 1px;
+border-color:  #203a43;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background:linear-gradient(90deg, rgb(167, 167, 192) 0%, rgb(149, 149, 196) 35%, rgb(170, 212, 221) 100%); 
+}
+
+.card{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgba(50, 50, 50, 0.2);
+    }
+    
+    @media (max-width: 600px) and (min-width: 10px){
+        
+        .card{
+            height: 440px;
+            width: 600px;
+        }
+    }    
